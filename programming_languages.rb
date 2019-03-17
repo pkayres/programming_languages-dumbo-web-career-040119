@@ -1,6 +1,6 @@
 #iterate over the old hash and build a new one with new_hash
 
-def reformat_languages(languages)
+def reformat_languages(languages_by_style)
   new_hash = {}
   languages.each do |language,lang_data|
 binding.pry
