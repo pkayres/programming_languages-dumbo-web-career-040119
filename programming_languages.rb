@@ -15,7 +15,7 @@ def reformat_languages(languages_by_style)
     elsif style == :java
       new_hash[:java] = {:type => "compiled",:style => [:oo]}
     elsif style == :clojure
-      new_hash[:coljure] = {:type => "compiled",:style => [:functional]}
+      new_hash[:clojure] = {:type => "compiled",:style => [:functional]}
       return new_hash
     end
   end
