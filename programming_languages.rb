@@ -5,7 +5,7 @@ require'pry'
 def reformat_languages(languages_by_style)
   new_hash = {}
   languages_by_style.each do |language,lang_data|
-    lang_data.each do |type,style|
+    lang_data.each do |style,type|
 binding.pry
     if language == lang_data[:ruby]
 
