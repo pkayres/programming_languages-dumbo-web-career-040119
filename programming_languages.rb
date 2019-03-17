@@ -10,6 +10,8 @@ def reformat_languages(languages_by_style)
       new_hash[:ruby] = {:type => "interpreted",:style => [:oo]}
     elsif style == :javascript
       new_hash[:javascript] = {:type => "interpreted",:style => [:oo, :functional]}
+    elsif style == :python
+      new_hash[:python] = {:type => "interpreted",:style => [:oo]}
       return new_hash
     end
   end
