@@ -1,3 +1,5 @@
+require'pry
+
 #iterate over the old hash and build a new one with new_hash
 
 def reformat_languages(languages_by_style)
