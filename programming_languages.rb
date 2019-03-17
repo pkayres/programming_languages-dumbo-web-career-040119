@@ -1,4 +1,4 @@
-require'pry
+require'pry'
 
 #iterate over the old hash and build a new one with new_hash
 
