@@ -8,6 +8,9 @@ def reformat_languages(languages_by_style)
     lang_data.each do |style,type|
       if style == :ruby
       new_hash[:ruby] = {:type => "interpreted",:style => [:oo]}
+    elsif style == :javascript
+      new_hash[:javascript] = {:type => "interpreted",
+    :style => [:oo, :functional]}
       return new_hash
     end
   end
