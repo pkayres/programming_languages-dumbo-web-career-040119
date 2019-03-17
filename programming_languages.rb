@@ -6,7 +6,9 @@ def reformat_languages(languages_by_style)
   new_hash = {}
   languages_by_style.each do |language,lang_data|
     if language == :ruby
+binding.pry
       new_hash[:ruby] = {:type => "interpreted",:style => [:oo]}
+binding.pry
       puts new_hash
     end
   end
